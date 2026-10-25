@@ -1,0 +1,227 @@
+# Plagiarism check plugin — Russian
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.plagiarismCheck.displayName"
+msgstr "Проверка на плагиат (локальная)"
+
+msgid "plugins.generic.plagiarismCheck.description"
+msgstr "Сравнивает рукописи со всеми статьями и рукописями, уже имеющимися на этом сайте OJS, и показывает редакторам процент совпадений. Работает с текстами на узбекском (латиница и кириллица), русском и английском языках без платных сервисов; внешний сервис можно подключить позже."
+
+msgid "plugins.generic.plagiarismCheck.task.name"
+msgstr "Очередь проверки на плагиат"
+
+msgid "plugins.generic.plagiarismCheck.column.title"
+msgstr "Совпадения"
+
+msgid "plugins.generic.plagiarismCheck.column.outdated"
+msgstr "После проверки была загружена новая версия файла. Проверьте повторно, чтобы обновить результат."
+
+msgid "plugins.generic.plagiarismCheck.action.check"
+msgstr "Проверить на плагиат"
+
+msgid "plugins.generic.plagiarismCheck.action.recheck"
+msgstr "Проверить снова"
+
+msgid "plugins.generic.plagiarismCheck.action.retry"
+msgstr "Повторить проверку"
+
+msgid "plugins.generic.plagiarismCheck.action.check.confirm"
+msgstr "Сравнить этот файл со всеми статьями и рукописями журнала? Для длинных файлов это может занять до минуты."
+
+msgid "plugins.generic.plagiarismCheck.action.external"
+msgstr "Отправить в {$provider}"
+
+msgid "plugins.generic.plagiarismCheck.action.external.confirm"
+msgstr "Отправить этот файл в {$provider} для проверки по внешним источникам? Это может расходовать платные проверки."
+
+msgid "plugins.generic.plagiarismCheck.status.queued"
+msgstr "В очереди"
+
+msgid "plugins.generic.plagiarismCheck.status.processing"
+msgstr "Проверяется…"
+
+msgid "plugins.generic.plagiarismCheck.status.done"
+msgstr "Проверено"
+
+msgid "plugins.generic.plagiarismCheck.status.failed"
+msgstr "Ошибка"
+
+msgid "plugins.generic.plagiarismCheck.source.submission"
+msgstr "Рукопись"
+
+msgid "plugins.generic.plagiarismCheck.source.galley"
+msgstr "Опубликованная статья"
+
+msgid "plugins.generic.plagiarismCheck.error.fileMissing"
+msgstr "Файл больше не существует."
+
+msgid "plugins.generic.plagiarismCheck.error.unsupported"
+msgstr "Этот тип файла нельзя проверить. Поддерживаются: PDF, DOCX, ODT, HTML, TXT."
+
+msgid "plugins.generic.plagiarismCheck.error.noText"
+msgstr "Не удалось извлечь текст. Возможно, это отсканированный PDF без текстового слоя."
+
+msgid "plugins.generic.plagiarismCheck.external.notConfigured"
+msgstr "Внешний сервис проверки на плагиат не настроен."
+
+msgid "plugins.generic.plagiarismCheck.report.title"
+msgstr "Отчёт о совпадениях"
+
+msgid "plugins.generic.plagiarismCheck.report.open"
+msgstr "Открыть отчёт о совпадениях"
+
+msgid "plugins.generic.plagiarismCheck.report.openSubmission"
+msgstr "Рукопись №{$id}"
+
+msgid "plugins.generic.plagiarismCheck.report.notReady"
+msgstr "Этот файл ещё не проверен."
+
+msgid "plugins.generic.plagiarismCheck.report.similarity"
+msgstr "Совпадения"
+
+msgid "plugins.generic.plagiarismCheck.report.words"
+msgstr "Проверено слов"
+
+msgid "plugins.generic.plagiarismCheck.report.matchedWords"
+msgstr "Совпавших слов"
+
+msgid "plugins.generic.plagiarismCheck.report.sources"
+msgstr "Источники совпадений"
+
+msgid "plugins.generic.plagiarismCheck.report.compared"
+msgstr "Сравнено документов"
+
+msgid "plugins.generic.plagiarismCheck.report.scope"
+msgstr "Сравнение выполнено только со статьями и рукописями этого сайта OJS, без поиска в интернете и других журналах."
+
+msgid "plugins.generic.plagiarismCheck.report.settings"
+msgstr "Совпадения короче {$minWords} слов и текст, встречающийся в {$commonDocs} и более документах (служебные страницы выпуска, типовые формулировки), не учитываются."
+
+msgid "plugins.generic.plagiarismCheck.report.bibliographyExcluded"
+msgstr "Список литературы исключён."
+
+msgid "plugins.generic.plagiarismCheck.report.quotesExcluded"
+msgstr "Текст в кавычках исключён."
+
+msgid "plugins.generic.plagiarismCheck.report.text"
+msgstr "Проверенный текст"
+
+msgid "plugins.generic.plagiarismCheck.report.excludedPart"
+msgstr "Исключено из проверки"
+
+msgid "plugins.generic.plagiarismCheck.report.wordsCount"
+msgstr "{$count} слов"
+
+msgid "plugins.generic.plagiarismCheck.results.title"
+msgstr "Результаты проверки на плагиат"
+
+msgid "plugins.generic.plagiarismCheck.results.empty"
+msgstr "Пока не проверено ни одного файла."
+
+msgid "plugins.generic.plagiarismCheck.results.type"
+msgstr "Тип"
+
+msgid "plugins.generic.plagiarismCheck.results.checked"
+msgstr "Проверено"
+
+msgid "plugins.generic.plagiarismCheck.settings.description"
+msgstr "Каждый файл сравнивается со всеми опубликованными статьями и всеми ранее поданными рукописями на этом сайте OJS. Результаты видят только менеджеры журнала и редакторы разделов."
+
+msgid "plugins.generic.plagiarismCheck.settings.status"
+msgstr "Документы:"
+
+msgid "plugins.generic.plagiarismCheck.settings.when"
+msgstr "Когда проверять"
+
+msgid "plugins.generic.plagiarismCheck.settings.autoCheckSubmissions"
+msgstr "Автоматически проверять файлы рукописи, когда автор завершает подачу"
+
+msgid "plugins.generic.plagiarismCheck.settings.checkPublishedGalleys"
+msgstr "Индексировать и проверять файлы гранок при публикации статьи"
+
+msgid "plugins.generic.plagiarismCheck.settings.matching"
+msgstr "Сравнение"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeBibliography"
+msgstr "Исключать список литературы (текст после заголовков References, Иқтибослар, Список литературы, Foydalanilgan adabiyotlar и т. п.)"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeQuotes"
+msgstr "Исключать текст в кавычках"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords"
+msgstr "Минимальная длина совпадения (слов)"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.description"
+msgstr "Более короткие совпадающие фрагменты не учитываются. По умолчанию: 8."
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.invalid"
+msgstr "Введите целое число от 3 до 100."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs"
+msgstr "Порог типового текста (документов)"
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.description"
+msgstr "Текст, найденный в стольких или более документах (служебные страницы выпуска, типовые юридические формулировки), не учитывается. По умолчанию: 5. 0 — отключить."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.invalid"
+msgstr "Введите 0 или целое число не меньше 2."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold"
+msgstr "Порог предупреждения (%)"
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.description"
+msgstr "Результаты не ниже этого значения выделяются красным, выше половины — оранжевым. По умолчанию: 20."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.invalid"
+msgstr "Введите число от 1 до 100."
+
+msgid "plugins.generic.plagiarismCheck.settings.extraction"
+msgstr "Извлечение текста из PDF"
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.available"
+msgstr "На сервере доступен pdftotext, он будет использоваться для PDF."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.missing"
+msgstr "pdftotext на сервере недоступен, используется встроенный PHP-обработчик PDF. Он работает, но для некоторых PDF pdftotext даёт лучший результат."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotextPath"
+msgstr "Путь к pdftotext"
+
+msgid "plugins.generic.plagiarismCheck.settings.external"
+msgstr "Внешний сервис проверки (необязательно)"
+
+msgid "plugins.generic.plagiarismCheck.settings.external.description"
+msgstr "Локальная проверка не ищет в интернете. Если подключить платный сервис, у редакторов появится действие для отправки файла в него."
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider"
+msgstr "Сервис"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider.none"
+msgstr "Нет (только локальная проверка)"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiUrl"
+msgstr "API URL"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiKey"
+msgstr "Ключ API"
+
+msgid "plugins.generic.plagiarismCheck.results.article"
+msgstr "Статья"
+
+msgid "plugins.generic.plagiarismCheck.results.status"
+msgstr "Статус"
+
+msgid "plugins.generic.plagiarismCheck.error.interrupted"
+msgstr "Проверка прервалась, обычно потому что файл слишком велик для ограничений памяти или времени сервера. Повторите попытку или попросите администратора установить pdftotext."
+
+msgid "plugins.generic.plagiarismCheck.menu.title"
+msgstr "Проверка на плагиат"
+
+msgid "plugins.generic.plagiarismCheck.results.search"
+msgstr "Поиск по названию или номеру…"

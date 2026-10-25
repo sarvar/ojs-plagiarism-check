@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  * plugins/generic/plagiarismCheck/scheduledTasks.xml
+  *
+  * Distributed under the GNU GPL v3.
+  *
+  * Processes queued plagiarism checks. Run from cron with:
+  *   php tools/runScheduledTasks.php plugins/generic/plagiarismCheck/scheduledTasks.xml
+  * or let the Acron plugin run it.
+  -->
+
+<!DOCTYPE scheduled_tasks SYSTEM "../../../lib/pkp/dtd/scheduledTasks.dtd">
+
+<scheduled_tasks>
+	<task class="plugins.generic.plagiarismCheck.classes.PlagiarismCheckTask">
+		<descr>Run queued plagiarism checks.</descr>
+		<frequency minute="*/5"/>
+	</task>
+</scheduled_tasks>

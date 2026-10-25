@@ -1,0 +1,17 @@
+{
+    "name": "yuristjournal/plagiarism-check",
+    "description": "Local plagiarism (similarity) check plugin for OJS 3.3",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.3",
+        "smalot/pdfparser": "^2.2"
+    },
+    "replace": {
+        "symfony/polyfill-mbstring": "*"
+    },
+    "config": {
+        "platform": {"php": "7.3.0"},
+        "optimize-autoloader": true
+    }
+}

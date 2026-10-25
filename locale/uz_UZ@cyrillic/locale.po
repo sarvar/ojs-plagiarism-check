@@ -1,0 +1,227 @@
+# Plagiarism check plugin — Uzbek (Cyrillic)
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: uz_UZ@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.plagiarismCheck.displayName"
+msgstr "Плагиатни текшириш (локал)"
+
+msgid "plugins.generic.plagiarismCheck.description"
+msgstr "Қўлёзмаларни ушбу OJS сайтидаги барча мақола ва қўлёзмалар билан солиштиради ҳамда муҳаррирларга ўхшашлик фоизини кўрсатади. Ўзбек (лотин ва кирилл), рус ва инглиз тилидаги матнлар учун пуллик хизматларсиз ишлайди; ташқи хизматни кейинроқ улаш мумкин."
+
+msgid "plugins.generic.plagiarismCheck.task.name"
+msgstr "Плагиат текшируви навбати"
+
+msgid "plugins.generic.plagiarismCheck.column.title"
+msgstr "Ўхшашлик"
+
+msgid "plugins.generic.plagiarismCheck.column.outdated"
+msgstr "Текширувдан кейин файлнинг янги версияси юкланган. Натижани янгилаш учун қайта текширинг."
+
+msgid "plugins.generic.plagiarismCheck.action.check"
+msgstr "Плагиатга текшириш"
+
+msgid "plugins.generic.plagiarismCheck.action.recheck"
+msgstr "Қайта текшириш"
+
+msgid "plugins.generic.plagiarismCheck.action.retry"
+msgstr "Текширувни такрорлаш"
+
+msgid "plugins.generic.plagiarismCheck.action.check.confirm"
+msgstr "Ушбу файл журналдаги барча мақола ва қўлёзмалар билан солиштирилсинми? Узун файллар учун бу бир дақиқагача вақт олиши мумкин."
+
+msgid "plugins.generic.plagiarismCheck.action.external"
+msgstr "{$provider} га юбориш"
+
+msgid "plugins.generic.plagiarismCheck.action.external.confirm"
+msgstr "Ушбу файл ташқи манбалар бўйича текшириш учун {$provider} га юборилсинми? Бунда пуллик текширувлар сарфланиши мумкин."
+
+msgid "plugins.generic.plagiarismCheck.status.queued"
+msgstr "Навбатда"
+
+msgid "plugins.generic.plagiarismCheck.status.processing"
+msgstr "Текширилмоқда…"
+
+msgid "plugins.generic.plagiarismCheck.status.done"
+msgstr "Текширилди"
+
+msgid "plugins.generic.plagiarismCheck.status.failed"
+msgstr "Хатолик"
+
+msgid "plugins.generic.plagiarismCheck.source.submission"
+msgstr "Қўлёзма"
+
+msgid "plugins.generic.plagiarismCheck.source.galley"
+msgstr "Нашр этилган мақола"
+
+msgid "plugins.generic.plagiarismCheck.error.fileMissing"
+msgstr "Файл энди мавжуд эмас."
+
+msgid "plugins.generic.plagiarismCheck.error.unsupported"
+msgstr "Бу турдаги файлни текшириб бўлмайди. Қўллаб-қувватланади: PDF, DOCX, ODT, HTML, TXT."
+
+msgid "plugins.generic.plagiarismCheck.error.noText"
+msgstr "Матнни ажратиб олиб бўлмади. Файл матн қатламисиз сканерланган PDF бўлиши мумкин."
+
+msgid "plugins.generic.plagiarismCheck.external.notConfigured"
+msgstr "Ташқи плагиат текшируви хизмати созланмаган."
+
+msgid "plugins.generic.plagiarismCheck.report.title"
+msgstr "Ўхшашлик ҳисоботи"
+
+msgid "plugins.generic.plagiarismCheck.report.open"
+msgstr "Ўхшашлик ҳисоботини очиш"
+
+msgid "plugins.generic.plagiarismCheck.report.openSubmission"
+msgstr "Қўлёзма №{$id}"
+
+msgid "plugins.generic.plagiarismCheck.report.notReady"
+msgstr "Бу файл ҳали текширилмаган."
+
+msgid "plugins.generic.plagiarismCheck.report.similarity"
+msgstr "Ўхшашлик"
+
+msgid "plugins.generic.plagiarismCheck.report.words"
+msgstr "Текширилган сўзлар"
+
+msgid "plugins.generic.plagiarismCheck.report.matchedWords"
+msgstr "Мос келган сўзлар"
+
+msgid "plugins.generic.plagiarismCheck.report.sources"
+msgstr "Мос келган манбалар"
+
+msgid "plugins.generic.plagiarismCheck.report.compared"
+msgstr "Солиштирилган ҳужжатлар"
+
+msgid "plugins.generic.plagiarismCheck.report.scope"
+msgstr "Фақат ушбу OJS сайтидаги мақола ва қўлёзмалар билан солиштирилди, интернет ва бошқа журналлар билан эмас."
+
+msgid "plugins.generic.plagiarismCheck.report.settings"
+msgstr "{$minWords} сўздан қисқа мосликлар ва {$commonDocs} ёки ундан ортиқ ҳужжатда учрайдиган матн (сон хизмат саҳифалари, стандарт иборалар) ҳисобга олинмайди."
+
+msgid "plugins.generic.plagiarismCheck.report.bibliographyExcluded"
+msgstr "Адабиётлар рўйхати чиқариб ташланган."
+
+msgid "plugins.generic.plagiarismCheck.report.quotesExcluded"
+msgstr "Қўштирноқ ичидаги матн чиқариб ташланган."
+
+msgid "plugins.generic.plagiarismCheck.report.text"
+msgstr "Текширилган матн"
+
+msgid "plugins.generic.plagiarismCheck.report.excludedPart"
+msgstr "Текширувдан чиқарилган"
+
+msgid "plugins.generic.plagiarismCheck.report.wordsCount"
+msgstr "{$count} сўз"
+
+msgid "plugins.generic.plagiarismCheck.results.title"
+msgstr "Плагиат текшируви натижалари"
+
+msgid "plugins.generic.plagiarismCheck.results.empty"
+msgstr "Ҳали бирорта файл текширилмаган."
+
+msgid "plugins.generic.plagiarismCheck.results.type"
+msgstr "Тури"
+
+msgid "plugins.generic.plagiarismCheck.results.checked"
+msgstr "Текширилган"
+
+msgid "plugins.generic.plagiarismCheck.settings.description"
+msgstr "Ҳар бир файл ушбу OJS сайтидаги барча нашр этилган мақолалар ва аввал юборилган қўлёзмалар билан солиштирилади. Натижаларни фақат журнал менежерлари ва бўлим муҳаррирлари кўради."
+
+msgid "plugins.generic.plagiarismCheck.settings.status"
+msgstr "Ҳужжатлар:"
+
+msgid "plugins.generic.plagiarismCheck.settings.when"
+msgstr "Қачон текшириш"
+
+msgid "plugins.generic.plagiarismCheck.settings.autoCheckSubmissions"
+msgstr "Муаллиф юборишни якунлаганда қўлёзма файлларини автоматик текшириш"
+
+msgid "plugins.generic.plagiarismCheck.settings.checkPublishedGalleys"
+msgstr "Мақола нашр этилганда гранка файлларини индекслаш ва текшириш"
+
+msgid "plugins.generic.plagiarismCheck.settings.matching"
+msgstr "Солиштириш"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeBibliography"
+msgstr "Адабиётлар рўйхатини чиқариб ташлаш (References, Иқтибослар, Список литературы, Foydalanilgan adabiyotlar каби сарлавҳалардан кейинги матн)"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeQuotes"
+msgstr "Қўштирноқ ичидаги матнни чиқариб ташлаш"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords"
+msgstr "Мосликнинг энг кам узунлиги (сўз)"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.description"
+msgstr "Қисқароқ мос парчалар ҳисобга олинмайди. Стандарт: 8."
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.invalid"
+msgstr "3 дан 100 гача бутун сон киритинг."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs"
+msgstr "Стандарт матн чегараси (ҳужжат)"
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.description"
+msgstr "Шунча ёки ундан кўп ҳужжатда учрайдиган матн (сон хизмат саҳифалари, стандарт ҳуқуқий иборалар) ҳисобга олинмайди. Стандарт: 5. Ўчириш учун 0."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.invalid"
+msgstr "0 ёки камида 2 бўлган бутун сон киритинг."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold"
+msgstr "Огоҳлантириш чегараси (%)"
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.description"
+msgstr "Шу қийматдан паст бўлмаган натижалар қизил, ярмидан юқорилари тўқ сариқ рангда кўрсатилади. Стандарт: 20."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.invalid"
+msgstr "1 дан 100 гача сон киритинг."
+
+msgid "plugins.generic.plagiarismCheck.settings.extraction"
+msgstr "PDF дан матн ажратиш"
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.available"
+msgstr "Серверда pdftotext мавжуд, PDF файллар учун у ишлатилади."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.missing"
+msgstr "Серверда pdftotext мавжуд эмас, шунинг учун ички PHP PDF ўқувчиси ишлатилади. У ишлайди, лекин айрим PDF лар учун pdftotext яхшироқ натижа беради."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotextPath"
+msgstr "pdftotext манзили"
+
+msgid "plugins.generic.plagiarismCheck.settings.external"
+msgstr "Ташқи плагиат хизмати (ихтиёрий)"
+
+msgid "plugins.generic.plagiarismCheck.settings.external.description"
+msgstr "Локал текширув интернетда қидирмайди. Пуллик хизмат уланса, муҳаррирларда файлни унга юбориш амали пайдо бўлади."
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider"
+msgstr "Хизмат"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider.none"
+msgstr "Йўқ (фақат локал текширув)"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiUrl"
+msgstr "API URL"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiKey"
+msgstr "API калити"
+
+msgid "plugins.generic.plagiarismCheck.results.article"
+msgstr "Мақола"
+
+msgid "plugins.generic.plagiarismCheck.results.status"
+msgstr "Ҳолати"
+
+msgid "plugins.generic.plagiarismCheck.error.interrupted"
+msgstr "Текширув якунланмай тўхтади, одатда файл сервер хотираси ёки вақт чегараси учун жуда катта бўлгани сабабли. Қайта уриниб кўринг ёки администратордан pdftotext ўрнатишни сўранг."
+
+msgid "plugins.generic.plagiarismCheck.menu.title"
+msgstr "Плагиат текшируви"
+
+msgid "plugins.generic.plagiarismCheck.results.search"
+msgstr "Номи ёки рақами бўйича қидириш…"

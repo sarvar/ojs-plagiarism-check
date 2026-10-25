@@ -1,0 +1,227 @@
+# Plagiarism check plugin — English
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.generic.plagiarismCheck.displayName"
+msgstr "Plagiarism Check (local)"
+
+msgid "plugins.generic.plagiarismCheck.description"
+msgstr "Compares manuscripts with every article and submission already in this OJS site and shows a similarity score to editors. Works for Uzbek (Latin and Cyrillic), Russian and English texts without any paid service; an external provider can be added later."
+
+msgid "plugins.generic.plagiarismCheck.task.name"
+msgstr "Plagiarism check queue"
+
+msgid "plugins.generic.plagiarismCheck.column.title"
+msgstr "Similarity"
+
+msgid "plugins.generic.plagiarismCheck.column.outdated"
+msgstr "A newer version of this file was uploaded after the check. Re-check to update the score."
+
+msgid "plugins.generic.plagiarismCheck.action.check"
+msgstr "Check plagiarism"
+
+msgid "plugins.generic.plagiarismCheck.action.recheck"
+msgstr "Re-check"
+
+msgid "plugins.generic.plagiarismCheck.action.retry"
+msgstr "Retry check"
+
+msgid "plugins.generic.plagiarismCheck.action.check.confirm"
+msgstr "Compare this file with all articles and submissions in the journal? This can take up to a minute for long files."
+
+msgid "plugins.generic.plagiarismCheck.action.external"
+msgstr "Send to {$provider}"
+
+msgid "plugins.generic.plagiarismCheck.action.external.confirm"
+msgstr "Send this file to {$provider} for a check against external sources? This may use paid credits."
+
+msgid "plugins.generic.plagiarismCheck.status.queued"
+msgstr "Queued"
+
+msgid "plugins.generic.plagiarismCheck.status.processing"
+msgstr "Checking…"
+
+msgid "plugins.generic.plagiarismCheck.status.done"
+msgstr "Checked"
+
+msgid "plugins.generic.plagiarismCheck.status.failed"
+msgstr "Failed"
+
+msgid "plugins.generic.plagiarismCheck.source.submission"
+msgstr "Submission"
+
+msgid "plugins.generic.plagiarismCheck.source.galley"
+msgstr "Published article"
+
+msgid "plugins.generic.plagiarismCheck.error.fileMissing"
+msgstr "The file no longer exists."
+
+msgid "plugins.generic.plagiarismCheck.error.unsupported"
+msgstr "This file type cannot be checked. Supported: PDF, DOCX, ODT, HTML, TXT."
+
+msgid "plugins.generic.plagiarismCheck.error.noText"
+msgstr "No text could be extracted. The file may be a scanned PDF without a text layer."
+
+msgid "plugins.generic.plagiarismCheck.external.notConfigured"
+msgstr "No external plagiarism service is configured."
+
+msgid "plugins.generic.plagiarismCheck.report.title"
+msgstr "Similarity report"
+
+msgid "plugins.generic.plagiarismCheck.report.open"
+msgstr "Open similarity report"
+
+msgid "plugins.generic.plagiarismCheck.report.openSubmission"
+msgstr "Submission #{$id}"
+
+msgid "plugins.generic.plagiarismCheck.report.notReady"
+msgstr "This file has not been checked yet."
+
+msgid "plugins.generic.plagiarismCheck.report.similarity"
+msgstr "Similarity"
+
+msgid "plugins.generic.plagiarismCheck.report.words"
+msgstr "Words checked"
+
+msgid "plugins.generic.plagiarismCheck.report.matchedWords"
+msgstr "Matching words"
+
+msgid "plugins.generic.plagiarismCheck.report.sources"
+msgstr "Matching sources"
+
+msgid "plugins.generic.plagiarismCheck.report.compared"
+msgstr "Documents compared"
+
+msgid "plugins.generic.plagiarismCheck.report.scope"
+msgstr "Compared with articles and submissions stored in this OJS site only, not with the internet or other journals."
+
+msgid "plugins.generic.plagiarismCheck.report.settings"
+msgstr "Matches shorter than {$minWords} words and text shared by {$commonDocs} or more documents (journal front matter, standard phrases) are ignored."
+
+msgid "plugins.generic.plagiarismCheck.report.bibliographyExcluded"
+msgstr "The reference list is excluded."
+
+msgid "plugins.generic.plagiarismCheck.report.quotesExcluded"
+msgstr "Quoted text is excluded."
+
+msgid "plugins.generic.plagiarismCheck.report.text"
+msgstr "Checked text"
+
+msgid "plugins.generic.plagiarismCheck.report.excludedPart"
+msgstr "Excluded from the check"
+
+msgid "plugins.generic.plagiarismCheck.report.wordsCount"
+msgstr "{$count} words"
+
+msgid "plugins.generic.plagiarismCheck.results.title"
+msgstr "Plagiarism check results"
+
+msgid "plugins.generic.plagiarismCheck.results.empty"
+msgstr "No files have been checked yet."
+
+msgid "plugins.generic.plagiarismCheck.results.type"
+msgstr "Type"
+
+msgid "plugins.generic.plagiarismCheck.results.checked"
+msgstr "Checked"
+
+msgid "plugins.generic.plagiarismCheck.settings.description"
+msgstr "Each checked file is compared with every published article and every earlier submission in this OJS site. Results are visible to journal managers and section editors only."
+
+msgid "plugins.generic.plagiarismCheck.settings.status"
+msgstr "Documents:"
+
+msgid "plugins.generic.plagiarismCheck.settings.when"
+msgstr "When to check"
+
+msgid "plugins.generic.plagiarismCheck.settings.autoCheckSubmissions"
+msgstr "Check manuscript files automatically when an author completes a submission"
+
+msgid "plugins.generic.plagiarismCheck.settings.checkPublishedGalleys"
+msgstr "Index and check galley files when an article is published"
+
+msgid "plugins.generic.plagiarismCheck.settings.matching"
+msgstr "Matching"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeBibliography"
+msgstr "Exclude the reference list (text after headings such as References, Иқтибослар, Список литературы, Foydalanilgan adabiyotlar)"
+
+msgid "plugins.generic.plagiarismCheck.settings.excludeQuotes"
+msgstr "Exclude text in quotation marks"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords"
+msgstr "Minimum match length (words)"
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.description"
+msgstr "Shorter matching passages are ignored. Default: 8."
+
+msgid "plugins.generic.plagiarismCheck.settings.minMatchWords.invalid"
+msgstr "Enter a whole number between 3 and 100."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs"
+msgstr "Boilerplate threshold (documents)"
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.description"
+msgstr "Text found in this many documents or more, such as issue front matter or standard legal phrases, is not counted. Default: 5. Use 0 to turn off."
+
+msgid "plugins.generic.plagiarismCheck.settings.commonDocs.invalid"
+msgstr "Enter 0 or a whole number of at least 2."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold"
+msgstr "Warning threshold (%)"
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.description"
+msgstr "Scores at or above this value are shown in red, scores above half of it in orange. Default: 20."
+
+msgid "plugins.generic.plagiarismCheck.settings.warningThreshold.invalid"
+msgstr "Enter a number between 1 and 100."
+
+msgid "plugins.generic.plagiarismCheck.settings.extraction"
+msgstr "PDF text extraction"
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.available"
+msgstr "pdftotext is available on this server and will be used for PDFs."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotext.missing"
+msgstr "pdftotext is not available on this server, so the built-in PHP PDF reader is used. It works, but pdftotext gives better results for some PDFs."
+
+msgid "plugins.generic.plagiarismCheck.settings.pdftotextPath"
+msgstr "Path to pdftotext"
+
+msgid "plugins.generic.plagiarismCheck.settings.external"
+msgstr "External plagiarism service (optional)"
+
+msgid "plugins.generic.plagiarismCheck.settings.external.description"
+msgstr "The local check does not search the internet. When a paid service is connected, editors get an extra action to send a file to it."
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider"
+msgstr "Service"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalProvider.none"
+msgstr "None (local check only)"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiUrl"
+msgstr "API URL"
+
+msgid "plugins.generic.plagiarismCheck.settings.externalApiKey"
+msgstr "API key"
+
+msgid "plugins.generic.plagiarismCheck.results.article"
+msgstr "Article"
+
+msgid "plugins.generic.plagiarismCheck.results.status"
+msgstr "Status"
+
+msgid "plugins.generic.plagiarismCheck.error.interrupted"
+msgstr "The check stopped before finishing, usually because the file is too large for the server’s memory or time limit. Try again, or ask the administrator to install pdftotext."
+
+msgid "plugins.generic.plagiarismCheck.menu.title"
+msgstr "Plagiarism check"
+
+msgid "plugins.generic.plagiarismCheck.results.search"
+msgstr "Search by title or number…"

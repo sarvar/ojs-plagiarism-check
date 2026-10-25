@@ -1,0 +1,16 @@
+/* Plagiarism check results page (back office) */
+.pcResults__toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.pcResults__counts { margin: 0; }
+.pcResults__search { min-width: 260px; max-width: 100%; padding: 6px 10px; border: 1px solid #bbb; border-radius: 3px; font-size: 14px; }
+.pcResults__tableWrap { overflow-x: auto; }
+.pcResults__table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.45; }
+.pcResults__table th, .pcResults__table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ddd; vertical-align: top; }
+.pcResults__table th { font-weight: 700; white-space: nowrap; }
+.pcResults__title { min-width: 260px; }
+.pcResults__num { text-align: right !important; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pcResults__nowrap { white-space: nowrap; }
+.pcResults__muted { color: #707070; font-size: 12px; }
+.pcResults__score { font-weight: 700; color: #00733c; text-decoration: none; }
+.pcResults__score--medium { color: #b35c00; }
+.pcResults__score--high { color: #c4001a; }
+.pcResults__failed { color: #c4001a; cursor: help; }
